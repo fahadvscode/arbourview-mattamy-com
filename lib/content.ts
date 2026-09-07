@@ -24,7 +24,7 @@ export const LAST_UPDATED_ISO = "2026-09-01";
 export const STATUS = "Coming Soon — Registration Open";
 export const STATUS_BADGE = "Coming Soon — Registration Open";
 export const TAGLINE = "Where Your Kids Will Know the Farmers by Name";
-export const SITE_SOURCE = "arbourviewmattamy.com";
+export const SITE_SOURCE = SITE_URL;
 
 export const GEO = {
   // Verified from Mattamy Homes' official Arbourview "Directions" link.
