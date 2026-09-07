@@ -21,7 +21,15 @@ const nextConfig: NextConfig = {
         headers: [
           { key: "Content-Type", value: "application/xml; charset=utf-8" },
           { key: "Content-Disposition", value: "inline" },
-          { key: "Cache-Control", value: "public, max-age=0, must-revalidate" },
+          { key: "Cache-Control", value: "no-store, no-cache, must-revalidate" },
+        ],
+      },
+      {
+        source: "/sitemap/sitemap.xml",
+        headers: [
+          { key: "Content-Type", value: "application/xml; charset=utf-8" },
+          { key: "Content-Disposition", value: "inline" },
+          { key: "Cache-Control", value: "no-store, no-cache, must-revalidate" },
         ],
       },
       {

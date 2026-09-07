@@ -37,4 +37,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://arbourviewmattamy.com/sitemap.xml?v=20260906
+Sitemap: https://arbourviewmattamy.com/sitemap/sitemap.xml
